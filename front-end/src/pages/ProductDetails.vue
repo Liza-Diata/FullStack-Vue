@@ -54,7 +54,7 @@ import NotFoundPage from './NotFoundPage.vue';
             const email = prompt('Please enter your email to sign in:');
             const auth = getAuth();
             const actionCodeSettings = {
-                url: `https://full-stack-vue-62t3.onrender.com/products/${this.$route.params.productId}`,
+                url: `https://fullstack-vue-project.onrender.com/products/${this.$route.params.productId}`,
                 handleCodeInApp: true,
             }
            await sendSignInLinkToEmail(auth, email, actionCodeSettings);
