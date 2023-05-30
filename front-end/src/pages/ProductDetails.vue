@@ -39,7 +39,7 @@ import NotFoundPage from './NotFoundPage.vue';
         watch: {
             async user(newUserValue) {
                 if (newUserValue) {
-                const cartResponse = await axios.get('/api/users/${newUserValue.uid}/cart');
+                const cartResponse = await axios.get(`/api/users/${newUserValue.uid}/cart`);
                 const cartItems = cartResponse.data;
                 this.cartItems = cartItems;
             }
@@ -80,7 +80,7 @@ import NotFoundPage from './NotFoundPage.vue';
             this.product = product;
 
             if (this.user) {
-                const cartResponse = await axios.get('/api/users/${this.user.uid}/cart');
+                const cartResponse = await axios.get(`/api/users/${this.user.uid}/cart`);
                 const cartItems = cartResponse.data;
                 this.cartItems = cartItems;
             }
