@@ -12,14 +12,13 @@ import { initializeApp } from "firebase/app";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAKZ3-kZVrTONUTfubfp__dwpliEF0FkfE",
-  authDomain: "vue-e-commerce-72baf.firebaseapp.com",
-  projectId: "vue-e-commerce-72baf",
-  storageBucket: "vue-e-commerce-72baf.appspot.com",
-  messagingSenderId: "836233888029",
-  appId: "1:836233888029:web:2e2a47de15ea9ca5bae1f4",
-  
-};
+    apiKey: "AIzaSyCw1_TAN9FGHQ8De6mpx1_1I-pzaBzS7Aw",
+    authDomain: "fullstack-vue-2cf8a.firebaseapp.com",
+    projectId: "fullstack-vue-2cf8a",
+    storageBucket: "fullstack-vue-2cf8a.appspot.com",
+    messagingSenderId: "45410002019",
+    appId: "1:45410002019:web:ce0d6a98118799a56c4456"
+  };
 
 initializeApp(firebaseConfig);
 

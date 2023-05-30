@@ -82,7 +82,7 @@ async function start(){
         res.sendFile(path.join(__dirname, '../dist/index.html'))
     });
 
-    const port = process.env.PORT || 8000;
+    const port = process.env.PORT || 8001;
     
     app.listen(port, () => {
         console.log('Server is listening on port ' + port)
